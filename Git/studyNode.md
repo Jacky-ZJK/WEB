@@ -51,3 +51,5 @@
 + `git merge [origin/分支]`
 
 + `git pull [origin] [分支]`
+
++ `ssh-keygen -t rsa -C [e-mail]`
