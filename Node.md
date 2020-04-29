@@ -49,3 +49,9 @@
 #### cookie、session、sessionStorage、localStorage区别
 
 + [cookies、sessionStorage和localStorage解释及区别](https://www.cnblogs.com/pengc/p/8714475.html)
+
+# 2020/4/26
+
+#### 数据库连接池
+
+#### http 长连接
