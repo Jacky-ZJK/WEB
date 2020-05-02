@@ -1,4 +1,4 @@
-# 2020/4/20
+# 2020/04/20
 
 #### [单点登录（SSO）](https://yq.aliyun.com/articles/636281)
 
@@ -14,11 +14,11 @@
 
 + 修改`/etc/sysconfig/network-scripts/ifcfg-ens33`中`ONBOOT=yes`
 
-# 2020/4/21
+# 2020/04/21
 
 #### Linux 系统中的软链接与硬连接
 
-# 2020/4/22
+# 2020/04/22
 
 #### [处理器的二级调度](https://blog.csdn.net/HaoDaWang/article/details/78596312)
 
@@ -50,8 +50,24 @@
 
 + [cookies、sessionStorage和localStorage解释及区别](https://www.cnblogs.com/pengc/p/8714475.html)
 
-# 2020/4/26
+# 2020/04/26
 
 #### 数据库连接池
 
 #### http 长连接
+
+# 2020/05/01
+
+#### WebSocket
+
++ Client: new Websocket('url') /// socket.onopen /// socket.onmessage /// socket.onclose //// socket.send
+
++ Server: require('net', sock=>{}) /// sock.once(连接) /// sock.on(data) /// sock.on(end) 
+
+  - 101 Switch Protocols // sha1(key + mask) // Upgrade: websocket // Connection: Upgrade // Sec-WebSocket-Accept: key\r\n\r\n
+
+#### 正则表达式
+
++ 正则方法: // test() // exec()
+
++ 字符串方法: // match() // replace() // split() // search()
